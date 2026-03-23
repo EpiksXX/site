@@ -5,5 +5,5 @@ services:
     image: httpd:latest
     container_name: my-apache-server
     ports:
-      - "8081:81"
+      - "8081:80"
     restart: unless-stopped
